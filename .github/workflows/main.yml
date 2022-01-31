@@ -1,4 +1,4 @@
-name: Prettier
+name: Run Prettier
 on:
   push:
     branches: [ main ]
@@ -11,6 +11,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: actionsx/prettier@v2
+      - name: Run prettier
+        uses: actionsx/prettier@v2
         with:
-          args: "--single-quote --trailing-comma all --prose-wrap always --write README.md"
+          args: --single-quote --trailing-comma all --prose-wrap always --write
+          
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4.13.1
+        with:
+          commit_message: Apply formatting changes
