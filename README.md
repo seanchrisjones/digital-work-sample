@@ -1,6 +1,8 @@
 ## The Problem
 
-In the eCommerce industry, it's important to track your company's product pricing and metrics related to their current assortment. We'd like you to build a report from some data about Designer Brands' products and pricing.
+In the eCommerce industry, it's important to track your company's product
+pricing and metrics related to their current assortment. We'd like you to build
+a report from some data about Designer Brands' products and pricing.
 
 ## Your Solution
 
