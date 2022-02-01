@@ -1,20 +1,28 @@
 ## The Problem
 
-In the eCommerce industry, it's important to track your company's product
-pricing and metrics related to their current assortment. We'd like you to build
-a report from some data about Designer Brands' products and pricing.
+In the eCommerce industry, it's important to track your company's product pricing and metrics related to their current assortment. We'd like you to build a report from some data about Designer Brands' products and pricing.
 
 ## Your Solution
 
 Your objective is to build a command-line program that parses the provided data
-and generates a report. Your program should accept a data file via standard
-input or as a command line argument. For example, here is how it may look to run
-your program via ts-node: `npx ts-node ./your-program.ts data.txt`.
+and generates a report. Your program should accept the data via standard input
+or via a file name as a command line argument. For example, here is how it may
+look to run your program in various languages:
+
+```
+// Node
+npx ts-node ./your-program.ts data.txt
+cat data.txt | ./your-program.ts
+
+// Swift
+swift ./your-program.swift data.txt
+cat data.txt | ./your-program.swift
+```
 
 Please write your solution with any strongly-typed language you're most
 comfortable with (that said, we'd strongly prefer solutions in the languages we
-use most: TypeScript, Swift, or Kotlin). Your solution should not require
-sanitization or persistence and should not manipulate the input file.
+use most: TypeScript, Swift, or Kotlin). You won't need to sanitize or persist
+data, and shouldn't manipulate the input file.
 
 ## The Data
 
