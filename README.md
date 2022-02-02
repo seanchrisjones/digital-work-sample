@@ -14,11 +14,11 @@ look to run your program in various languages:
 ```
 // Node
 npx ts-node ./your-program.ts data.txt
-cat data.txt | ./your-program.ts
+cat data.txt | npx ts-node ./your-program.ts
 
 // Swift
 swift ./your-program.swift data.txt
-cat data.txt | ./your-program.swift
+cat data.txt | swift ./your-program.swift
 ```
 
 Please write your solution with any strongly-typed language you're most
