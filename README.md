@@ -42,7 +42,7 @@ Product,79.99,49.98,5,false
 In the data, there are price types and there are products that belong to the
 price types. Price type entries will begin with `Type` and product entries begin
 with `Product`. A price type record has the display name of the price type. A
-product record has the regular price, clearance price, quantity in stock, and
+product record has the normal price, clearance price, quantity in stock, and
 whether the price is hidden from customers until added to cart.
 
 ## Requirements
@@ -50,13 +50,13 @@ whether the price is hidden from customers until added to cart.
 Generate a report that shows the number of products for each price type, and the
 range of prices represented by that price type.
 
-You can know that a product is regularly priced if its regular price field is
+You can know that a product is normally priced if its normal price field is
 equal to its clearance price field. If a product is on clearance, then the
-clearance price will be less than the regular price.
+clearance price will be less than the normal price.
 
 We can't allow products with less than 3 in stock to be sold to customers, so
 exclude those from your report data. Any products denoted as "Price In Cart" can
-also be counted as regular price or clearance products when applicable.
+also be counted as normal price or clearance products when applicable.
 
 Sort the output in descending order by how many products that met the inclusion
 criteria above are in each price type.
