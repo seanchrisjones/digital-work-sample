@@ -31,9 +31,9 @@ data, and shouldn't manipulate the input file.
 Please save the data below in your project as `data.txt`.
 
 ```
-Type,Normal Price
-Type,Clearance Price
-Type,Price In Cart
+Type,normal,Normal Price
+Type,clearance,Clearance Price
+Type,price_in_cart,Price In Cart
 Product,59.99,39.98,10,false
 Product,49.99,49.99,8,false
 Product,79.99,49.98,5,false
@@ -41,8 +41,8 @@ Product,79.99,49.98,5,false
 
 In the data, there are price types and there are products that belong to the
 price types. Price type entries will begin with `Type` and product entries begin
-with `Product`. A price type record has the display name of the price type. A
-product record has the normal price, clearance price, quantity in stock, and
+with `Product`. A price type record has an identification key and a display name. 
+A product record has the normal price, clearance price, quantity in stock, and
 whether the price is hidden from customers until added to cart.
 
 ## Requirements
