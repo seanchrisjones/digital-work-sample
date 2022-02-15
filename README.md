@@ -41,9 +41,9 @@ Product,79.99,49.98,5,false
 
 In the data, there are price types and there are products that belong to the
 price types. Price type entries will begin with `Type` and product entries begin
-with `Product`. A price type record has an identification key and a display name. 
-A product record has the normal price, clearance price, quantity in stock, and
-whether the price is hidden from customers until added to cart.
+with `Product`. A price type record has an identification key and a display
+name. A product record has the normal price, clearance price, quantity in stock,
+and whether the price is hidden from customers until added to cart.
 
 ## Requirements
 
