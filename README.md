@@ -6,25 +6,26 @@ a report from some data about Designer Brands' products and pricing.
 
 ## Your Solution
 
-Your objective is to build a command-line program that parses the provided data
-and generates a report. Your program should accept the data via standard input
-or via a file name as a command line argument. For example, here is how it may
-look to run your program in various languages:
+Your objective is to build a command line program that parses the provided data
+and displays a small report. The data should be passed to your program at runtime 
+as the file contents via standard input or as a file name/absolute path command 
+line argument. Here is how it might look to run your program with TypeScript:
 
 ```
-// Node
+// File name as a command line argument
 npx ts-node ./your-program.ts data.txt
-cat data.txt | npx ts-node ./your-program.ts
 
-// Swift
-swift ./your-program.swift data.txt
-cat data.txt | swift ./your-program.swift
+// Absolute path as a command line argument
+npx ts-node ./your-program.ts ~/Code/work-sample/data.txt
+
+// File contents piped via stdin
+cat data.txt | npx ts-node ./your-program.ts
 ```
 
-Please write your solution with any strongly-typed language you're most
-comfortable with (that said, we'd strongly prefer solutions in the languages we
-use most: TypeScript, Swift, or Kotlin). You won't need to sanitize or persist
-data, and shouldn't manipulate the input file.
+Please write your solution with any strongly-typed language you're comfortable
+with, but we strongly prefer to see solutions in the languages we use most: 
+TypeScript, Swift, or Kotlin. You don't need to sanitize the data, persist to 
+the filesystem, or manipulate the input file.
 
 ## The Data
 
