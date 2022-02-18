@@ -7,9 +7,10 @@ a report from some data about Designer Brands' products and pricing.
 ## Your Solution
 
 Your objective is to build a command line program that parses the provided data
-and displays a small report. The data should be passed to your program at runtime 
-as the file contents via standard input or as a file name/absolute path command 
-line argument. Here is how it might look to run your program with TypeScript:
+and displays a small report. The data should be passed to your program at
+runtime as the file contents via standard input or as a file name/absolute path
+command line argument. Here is how it might look to run your program with
+TypeScript:
 
 ```
 // File name as a command line argument
@@ -23,8 +24,8 @@ cat data.txt | npx ts-node ./your-program.ts
 ```
 
 Please write your solution with any strongly-typed language you're comfortable
-with, but we strongly prefer to see solutions in the languages we use most: 
-TypeScript, Swift, or Kotlin. You don't need to sanitize the data, persist to 
+with, but we strongly prefer to see solutions in the languages we use most:
+TypeScript, Swift, or Kotlin. You don't need to sanitize the data, persist to
 the filesystem, or manipulate the input file.
 
 ## The Data
