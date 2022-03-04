@@ -101,8 +101,7 @@ best to showcase how you build production-ready software. This will include
 organization, design, test coverage, and documentation. We're looking for a
 thoughtful solution that fully implements and tests all requirements and
 demonstrates your problem solving ability and thought processes. We ask that you
-don't over-engineer, but don't over-simplify. As a rule of thumb, try to timebox
-your solution to no more than 8 hours.
+don't over-engineer, but don't over-simplify.
 
 ## UI Addendum
 
